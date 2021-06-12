@@ -9,6 +9,7 @@ import java.net.UnknownHostException;
 /**
  * Esta es la clase cliente de Square
  * @author Jose Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class SquareClient {

@@ -5,6 +5,7 @@ import java.net.URL;
 /**
  * Esta clase nos provee información de una variable tipo URL
  * @author Jose Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class Url {

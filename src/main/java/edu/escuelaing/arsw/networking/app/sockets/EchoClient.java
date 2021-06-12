@@ -9,6 +9,7 @@ import java.net.UnknownHostException;
 /**
  * Esta clase es la clase Cliente de un echo
  * @author Jose Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class EchoClient {

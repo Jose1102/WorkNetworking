@@ -9,6 +9,7 @@ import java.net.Socket;
 /**
  * Esta clase es la clase Servidor de un echo
  * @author Jose María Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class EchoServer {

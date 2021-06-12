@@ -16,6 +16,7 @@ import java.util.List;
 /**
  * Esta clase realiza una conexión http por medio de servidor
  * @author Jose María Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class MultipleServer {

@@ -9,6 +9,7 @@ import java.net.Socket;
 /**
  * Este es el servidor que calcular el cuadrado de un número
  * @author Jose Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class SquareServer {

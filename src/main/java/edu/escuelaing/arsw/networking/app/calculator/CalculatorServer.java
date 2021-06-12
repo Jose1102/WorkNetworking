@@ -10,6 +10,7 @@ import java.net.Socket;
 /**
  * Esta clase es el servidor de la calculadora trigonométrica
  * @author Jose Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class CalculatorServer {

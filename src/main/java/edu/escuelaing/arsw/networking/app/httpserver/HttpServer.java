@@ -11,6 +11,7 @@ import java.util.List;
 /**
  * Esta clase realiza una conexión http por medio de servidor
  * @author José Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class HttpServer {

@@ -8,6 +8,7 @@ import java.net.URL;
 /**
  * Esta clase imprime el código html ingresado por consola
  * @author Jose Maria Castro Ortega
+ * @author Daniel Benavides
  *
  */
 public class UrlReader {
