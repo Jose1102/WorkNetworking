@@ -8,10 +8,17 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
-/*
+/**
  * Esta clase realiza una conexión http por medio de servidor
+ * @author José Maria Castro Ortega
+ *
  */
 public class HttpServer {
+	/**
+	 * 
+	 * @param args son los argumentos que entra en el main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
 		try {

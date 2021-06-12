@@ -6,10 +6,17 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-/*
+/**
  * Este es el servidor que calcular el cuadrado de un número
+ * @author Jose Maria Castro Ortega
+ *
  */
 public class SquareServer {
+	/**
+	 * 
+	 * @param args que son los argumentos que le ingresa a la clase main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
 		try {
@@ -47,7 +54,7 @@ public class SquareServer {
 		clientSocket.close();
 		serverSocket.close();
 	}
-	/*
+	/**
 	 * Esta clase realiza el cuadrado de un número
 	 * @param inputLine es un String que es el número 
 	 * @param outputLine es un String 

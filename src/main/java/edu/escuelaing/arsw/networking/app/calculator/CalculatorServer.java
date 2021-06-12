@@ -7,13 +7,20 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/*
+/**
  * Esta clase es el servidor de la calculadora trigonométrica
+ * @author Jose Maria Castro Ortega
+ *
  */
 public class CalculatorServer {
 	
 	public static String[] parts = null;
 	public static String part1 = "cos";
+	/**
+	 * 
+	 * @param args que son los argumentos de la clase main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
 		try {
@@ -52,7 +59,7 @@ public class CalculatorServer {
 		serverSocket.close();
 	}
 	
-	/*
+	/**
 	 * Esta clase realiza las operaciones trigonométricas
 	 * @param inputLine es un String que es el número tipo string o operación a realizar
 	 * @param outputLine es un String 

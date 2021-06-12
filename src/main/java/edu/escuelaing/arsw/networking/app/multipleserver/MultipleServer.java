@@ -13,13 +13,19 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
+/**
  * Esta clase realiza una conexión http por medio de servidor
+ * @author Jose María Castro Ortega
+ *
  */
 public class MultipleServer {
 
 	
-
+	/**
+	 * 
+	 * @param args son los argumentos que entra en el main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
 		try {
@@ -76,6 +82,11 @@ public class MultipleServer {
 		clientSocket.close();
 	}
 
+	/**
+	 * 
+	 * @param path
+	 * @return outmsg que es la pagina html;
+	 */
 	public static String createTextResponse(String path) {
 
 		Path file = Paths.get("./WWW" + path);

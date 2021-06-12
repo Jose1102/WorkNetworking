@@ -5,11 +5,20 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
-
+/**
+ * Esta clase imprime el código html ingresado por consola
+ * @author Jose Maria Castro Ortega
+ *
+ */
 public class UrlReader {
 	private static final int PI = 0;
 
 	// Desarrollado en conjunto con el profesor
+	/**
+	 * 
+	 * @param args que son los argumentos de la clase main
+	 * @throws Exception
+	 */
 		public static void main(String[] args) throws Exception {
 			
 			String sCarpAct = System.getProperty("user.dir");

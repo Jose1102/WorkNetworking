@@ -6,10 +6,17 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
-/*
+/**
  * Esta es la clase cliente de Calculator
+ * @author Jose Maria Castro Ortega
+ *
  */
 public class CalculatorClient {
+	/**
+	 * 
+	 * @param args que son los argumentos de la clase main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		Socket echoSocket = null;
 		PrintWriter out = null;

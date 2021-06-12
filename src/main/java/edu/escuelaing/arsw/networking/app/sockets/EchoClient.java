@@ -6,10 +6,17 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
-/*
+/**
  * Esta clase es la clase Cliente de un echo
+ * @author Jose Maria Castro Ortega
+ *
  */
 public class EchoClient {
+	/**
+	 * 
+	 * @param args que son los argumentos que le ingresa a la clase main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		Socket echoSocket = null;
 		PrintWriter out = null;

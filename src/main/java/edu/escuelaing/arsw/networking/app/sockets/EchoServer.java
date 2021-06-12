@@ -6,10 +6,17 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-/*
+/**
  * Esta clase es la clase Servidor de un echo
+ * @author Jose María Castro Ortega
+ *
  */
 public class EchoServer {
+	/**
+	 * 
+	 * @param args que son los argumentos que le ingresa a la clase main
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = null;
 		try {
