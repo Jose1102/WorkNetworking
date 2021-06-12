@@ -18,7 +18,7 @@ Este proyecto se busca entender como funciona Cliente-Servidor realizando operac
 ## Comenzando 🚀
 1. Clonar el repositorio
 ```
-git clone https://github.com/Jose1102/OODesign
+git clone https://github.com/Jose1102/WorkNetworking
 ```
 
 2. Compilar el proyecto
@@ -35,9 +35,7 @@ java -cp "./target/classes/" edu.escuelaing.arsw.OOdesign.app.App /Users/José/D
 ```
 
 
-### Estructura al ejecutar app⚠️
 
-como argumento debe ir la dirección del archivo txt a leer
 
 ## Ejecutando las pruebas ⚙️
 
@@ -46,21 +44,35 @@ como argumento debe ir la dirección del archivo txt a leer
 ```
 mvn test
 ```
-![PRUEBAS](https://github.com/Jose1102/OODesign/blob/master/images/Pruebas.PNG)
+![PRUEBAS](https://github.com/Jose1102/WorkNetworking/blob/master/images/test.PNG)
 
 ## Diagrama de clases 📖
 
-![DIAGRAMA](https://github.com/Jose1102/OODesign/blob/master/images/Diagrama.PNG)
+![DIAGRAMA](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/calculator.PNG)
 
-Se creo una clase linkedList que implementa List<E>, Deque<E>, Cloneable, Serializable donde se importa y se sobre escriben todos los métodos de cada uno de ellos, Luego se crea Nodo donde se le coloca como cabeza y cola el atributo last y first. Para direccionar cada nodo como se muestra es con el atributo siguiente 
+Se tienen dos clases una que es la clase cliente y la otra que el servidor donde la clase CalculatorServer realiza las operaciones trigonométricas 
+
+![DIAGRAMA2](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/http.PNG)
+Por otra lado se tiee la clase HttpServer que es una clase que nos ayuda a conectarnos por medio de un browser 
+
+![DIAGRAMA3](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/square.PNG)
+En este diagrama se puede observar dos clases una que es cliente y la otra el servidor. Realiza el cuadrado de un número 
+
+![DIAGRAMA4](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/url.PNG)
+Su objetivo es poder mostrar información por medio de una variable de tipo URL, donde su propósito es mostrar información básica de un link.
+
+![DIAGRAMA5](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/urlreader.PNG)
+Por último, esta clase por medio de un entrada de una url este guarda el código html en un archivo resultado.html
+
+ 
 
 ## Productividad 🛠️
 554 loc / 11 horas
 
 ## JavaDoc 📖
 
-Para consultar la carpeta de [JAVADOC](https://github.com/Jose1102/OODesign/tree/master/apidocs) .
+Para consultar la carpeta de [JAVADOC](https://github.com/Jose1102/WorkNetworking/tree/master/JavaDoc) .
 
 ## Licencia 📌
 
-Este proyecto está bajo la Licencia Pública General GNU - consulte el archivo de [LICENCIA](https://github.com/Jose1102/OODesign/blob/master/LICENSE.txt) para obtener más detalles.
+Este proyecto está bajo la Licencia Pública General GNU - consulte el archivo de [LICENCIA](https://github.com/Jose1102/WorkNetworking/blob/master/LICENSE.txt) para obtener más detalles.
