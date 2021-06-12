@@ -157,14 +157,5 @@ public class AppTest
         assertEquals(res1,"/moodle/course/view.php");
     }
     
-    /**
-     * Debería obtener el query de una URL
-     * @throws MalformedURLException 
-     */
-    public void testDeberiaVerInformacionDeQuery() throws MalformedURLException 
-    {
-    	Url url = new Url();
-        String res1 = url.getQuery(url.link);
-        assertEquals(res1,"id=2660");
-    }
+    
 }
