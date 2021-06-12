@@ -1,0 +1,11 @@
+edu\escuelaing\arsw\networking\app\sockets\EchoServer.class
+edu\escuelaing\arsw\networking\app\square\SquareServer.class
+edu\escuelaing\arsw\networking\app\url\Url.class
+edu\escuelaing\arsw\networking\app\sockets\EchoClient.class
+edu\escuelaing\arsw\networking\app\App.class
+edu\escuelaing\arsw\networking\app\calculator\CalculatorClient.class
+edu\escuelaing\arsw\networking\app\multipleserver\MultipleServer.class
+edu\escuelaing\arsw\networking\app\urlreader\UrlReader.class
+edu\escuelaing\arsw\networking\app\calculator\CalculatorServer.class
+edu\escuelaing\arsw\networking\app\square\SquareClient.class
+edu\escuelaing\arsw\networking\app\httpserver\HttpServer.class
