@@ -30,9 +30,53 @@ mvn package
 
 
 3. Ejecutar el proyecto 
-```
-java -cp "./target/classes/" edu.escuelaing.arsw.OOdesign.app.App /Users/José/Desktop/prueba/prueba2.txt
-```
+
+### Para ejecutar la calculadora que retorna el cuadrado de un número
+
+Se debe ejecutar primero la clase SquareServer como se muestrá a continuación
+![square](https://github.com/Jose1102/WorkNetworking/blob/master/images/squareServer.PNG)
+
+Luego se ejecuta la clase SquareClient, donde se debe ingresar el número,  para cerrar el servidor se coloca la palabra Bye. 
+
+![square](https://github.com/Jose1102/WorkNetworking/blob/master/images/squareClient.PNG)
+
+
+### Para ejecutar la calculadora trigonométrica
+
+Se debe ejecutar primero la clase CalculatorServer como se muestrá a continuación
+![claculator](https://github.com/Jose1102/WorkNetworking/blob/master/images/claculatorServer.PNG)
+
+Luego se ejecuta la clase CalculatorClient, donde se debe ingresar el número, el primer número realiza la operación de coseno. Para cambiar de función se debe colocar la palabra fun:sin,fun:tan o fun:cos, para cerrar el servidor se coloca la palabra Bye. 
+
+![calculator](https://github.com/Jose1102/WorkNetworking/blob/master/images/claculatorClient.PNG)
+
+
+### Para ejecutar el UrlReader 
+
+Se debe ejecutar primero la clase UrlReader, donde debemos ingresar en la consola el link de una pagina de estilo http://link.com
+
+![claculator](https://github.com/Jose1102/WorkNetworking/blob/master/images/UrlReader.PNG)
+ 
+⚠️ Se crea un archivo resultado.html en la carpeta WWW con el código fuente de la pagina ingresada
+
+
+### Para ejecutar el url con información una URL
+
+Se debe ejecutar primero la clase CalculatorServer, donde esta nos mostrará información básica de un link o URL como se muestrá a continuación
+
+![claculator](https://github.com/Jose1102/WorkNetworking/blob/master/images/url.PNG)
+
+
+
+### Para ejecutar la clase que abre el servidor desde el brower 
+
+Se debe ejecutar primero la clase MultipleServer como se muestrá a continuación
+
+![claculator](https://github.com/Jose1102/WorkNetworking/blob/master/images/claculatorServer.PNG)
+
+Luego se abre el browser y se coloca localhost
+
+![calculator](https://github.com/Jose1102/WorkNetworking/blob/master/images/multiServer2.PNG)
 
 
 
@@ -84,7 +128,7 @@ Por último, esta clase por medio de un entrada de una url este guarda el códig
  
 
 ## Productividad 🛠️
-554 loc / 11 horas
+891 loc / 17 horas
 
 ## JavaDoc 📖
 
