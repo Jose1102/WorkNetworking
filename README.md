@@ -50,18 +50,35 @@ mvn test
 
 ![DIAGRAMA](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/calculator.PNG)
 
+
 Se tienen dos clases una que es la clase cliente y la otra que el servidor donde la clase CalculatorServer realiza las operaciones trigonométricas 
 
+
+
 ![DIAGRAMA2](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/http.PNG)
+
+
 Por otra lado se tiee la clase HttpServer que es una clase que nos ayuda a conectarnos por medio de un browser 
 
+
+
 ![DIAGRAMA3](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/square.PNG)
+
+
 En este diagrama se puede observar dos clases una que es cliente y la otra el servidor. Realiza el cuadrado de un número 
 
+
+
 ![DIAGRAMA4](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/url.PNG)
+
+
 Su objetivo es poder mostrar información por medio de una variable de tipo URL, donde su propósito es mostrar información básica de un link.
 
+
+
 ![DIAGRAMA5](https://github.com/Jose1102/WorkNetworking/blob/master/images/diagrama/urlreader.PNG)
+
+
 Por último, esta clase por medio de un entrada de una url este guarda el código html en un archivo resultado.html
 
  
