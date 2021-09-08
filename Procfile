@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* edu.escuelaing.arep.service.app.multipleserver.MultipleServer 
+web: java -cp target/classes:target/dependency/* edu.escuelaing.arsw.networking.app.multipleserver.MultipleServer 
